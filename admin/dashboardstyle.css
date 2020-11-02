@@ -1,0 +1,59 @@
+.header{
+		color: #C8CBCE;
+}
+
+
+i{
+	color: white;
+	padding: 10px;
+	margin-top: 8px;
+
+}
+.sidemenu{
+	height: 100%;
+	width: 0px;
+	position: fixed;
+	top: 50px;
+	left: 0;
+	overflow-x: hidden;
+	transition: all 0.6s linear;
+	padding-top: 10px; 
+
+}
+.sidemenu a{
+	text-decoration: none;
+	color: black;
+	display: block;
+	margin: 10px 10px;
+	padding: 10px 10px;
+	border-bottom: 1px solid  #DCDEE0;
+	text-align: left;
+}
+.sidemenu a:hover{
+	color: white;
+	background-color: #020202;
+}
+
+.borders{
+	border-top: 1px solid #DCDEE0;
+	
+}	
+.closebtn{
+	position: absolute;
+	top: 10px;
+	right: 20px;
+	border: none!important;
+
+
+}
+#maincontent{
+	transition:all 0.6s linear;
+}
+
+/* .h1{
+	color: blue;
+} */
+
+.superadmin{
+	color: #adbed0;
+}
